@@ -1350,13 +1350,13 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url("../img/banner/banner.png");
+  background-image: url("https://i.ibb.co/BB5Kt2G/banner.png");
 }
 
 /* line 4, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-.slider_bg_2 {
+/* .slider_bg_2 {
   background-image: url("../img/banner/banner2.png");
-}
+} */
 
 /* line 8, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider {
