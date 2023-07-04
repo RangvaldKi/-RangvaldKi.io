@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -167,6 +168,38 @@
     <div class="portfolio_image_area">
         <div class="container">
             <div class="row" style="display:flex; justify-content: center">
+
+
+                <div class="col-xl-6 col-md-6" >
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio_logo/7.jpg" alt="">
+                        </div>
+                            <a href="img/portfolio/7.jpg" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>Freelance Exchange</h3>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6" >
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio_logo/6.jpg" alt="">
+                        </div>
+                            <a href="img/portfolio/6.jpg" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>Computer Shop</h3>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="col-xl-6 col-md-6" >
                     <div class="single_Portfolio">
                         <div class="portfolio_thumb">
@@ -223,7 +256,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-md-6 center-block" >
+               <!--  <div class="col-xl-6 col-md-6 center-block" >
                     <div class="single_Portfolio">
                             <div class="portfolio_thumb">
                                 <img src="img/portfolio_logo/5.png" alt="">
@@ -236,10 +269,33 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+
+    <div class = "portfolio-buttons" style="width: 100%; display: flex; justify-content: center; align-items: center; z-index: 999; position: relative;">
+        <!-- <a class="boxed-btn3" href="#" style="z-index: 999;">Figma links</a> -->
+        <button class = "boxed-btn3 modal-btn" id="modal-btn">Figma links</button>
+
+        <div class="mymodal">
+          <div class="overlay">
+            <div class="content">
+              <i class="fa fa-times close" aria-hidden="true"></i>
+              <h3 class="modal-title">Links to projects in Figma</h3>
+              <div class = "portfolio-buttons-figmma-links">
+                    <a class="boxed-btn3 modal-btn-link" href="https://www.figma.com/file/psJg6mUXfWbvoYvhkSLgAk/019?type=design&node-id=0-1&mode=design" target="_blank">Freelance Exchange</a>
+                       <a class="boxed-btn3 modal-btn-link" href="https://www.figma.com/file/dx8GYsKpRe2kpFBK0jkts0/WOW?type=design&node-id=0-1&mode=design&t=UVquygm77xVfJIDZ-0" target="_blank">WoW Fall Of The Champions</a>
+                       <a class="boxed-btn3 modal-btn-link" href="https://www.figma.com/file/6GaMA8FtUW7pzdPGqjDXUQ/gothic3?type=design&node-id=0-1&mode=design&t=mNMdRJMaylfXxnTW-0" target="_blank">Gothic 3 Mods</a>
+                    <a class="boxed-btn3 modal-btn-link" href="https://www.figma.com/file/Z2XbT7WYTweMBfGqDozTKj/1?node-id=0-1&t=QD10WNEK3qNCDjm7-0" target="_blank">Computer Shop</a>
+                    <a class="boxed-btn3 modal-btn-link" href="https://www.figma.com/file/atIgxbMGLt8Ro35MMgx4Uw/MEOW-WOOF?type=design&node-id=0-1&mode=design&t=nJ4IbCtYK3MXlcvw-0" target="_blank">MEOW WOOF</a>
+                    <a class="boxed-btn3 modal-btn-link" href="https://www.figma.com/file/vJ93TpUSbiWQZmhA5bTjk3/Untitled?type=design&mode=design&t=Jjg9ildKHCgOD4X9-0" target="_blank">Histarycny Natatnik</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <!--/ portfolio_image_area  -->
 
     <!-- about_me  -->
@@ -366,6 +422,7 @@ Copyright &copy;2023 All rights reserved | Made by Alina Fomina
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/modal/modal.js"></script>
 </body>
 
 </html>
